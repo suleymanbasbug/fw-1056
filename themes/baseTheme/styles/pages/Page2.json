@@ -56,6 +56,14 @@
       "width": null,
       "marginBottom": 10,
       "marginTop": 10
+    },
+    "&-flexLayout11": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
     }
   }
 }

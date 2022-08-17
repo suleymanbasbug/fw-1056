@@ -1,0 +1,74 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .bgBlack",
+			"hiddenComponent": false,
+			"id": "fa1b-19d3-d055-e463",
+			"props": {
+				"children": [
+					"149d-077e-8642-4412",
+					"466e-c3a6-ebff-9367",
+					"2f25-4b99-18ce-68ff"
+				],
+				"name": "flCase1$2",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .bgRed .margin-horizontal .margin-vertical",
+			"id": "149d-077e-8642-4412",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [],
+				"name": "fl",
+				"parent": "fa1b-19d3-d055-e463"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-flexLayout .abst",
+			"id": "466e-c3a6-ebff-9367",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [],
+				"name": "flAbsolute",
+				"parent": "fa1b-19d3-d055-e463"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .abst1",
+			"id": "2f25-4b99-18ce-68ff",
+			"oldName": "fl3",
+			"props": {
+				"children": [],
+				"name": "flAbsolute1",
+				"parent": "fa1b-19d3-d055-e463"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		}
+	]
+}

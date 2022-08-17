@@ -1,0 +1,58 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .bgBlack",
+			"hiddenComponent": true,
+			"id": "fedf-34f4-4241-9d02",
+			"props": {
+				"children": [
+					"8813-cf6e-67f1-2f3d",
+					"b21c-18d3-c233-6b86"
+				],
+				"name": "flCase1$1",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 7.69,
+				"top": 150
+			}
+		},
+		{
+			"className": ".sf-flexLayout .margin-vertical .margin-horizontal .bgRed",
+			"id": "8813-cf6e-67f1-2f3d",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [],
+				"name": "fl",
+				"parent": "fedf-34f4-4241-9d02"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .abst",
+			"id": "b21c-18d3-c233-6b86",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [],
+				"name": "flAbsolute",
+				"parent": "fedf-34f4-4241-9d02"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		}
+	]
+}

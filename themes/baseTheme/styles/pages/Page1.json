@@ -35,10 +35,30 @@
     "&-wrapper": {
       "flexProps": {
         "flexGrow": 1,
-        "justifyContent": "CENTER"
+        "justifyContent": "CENTER",
+        "alignItems": "CENTER",
+        "flexDirection": "ROW",
+        "alignContent": "CENTER",
+        "flexWrap": "WRAP"
       },
       "height": null,
       "width": null
+    },
+    "&-flexLayout1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flexLayout22": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
     }
   }
 }

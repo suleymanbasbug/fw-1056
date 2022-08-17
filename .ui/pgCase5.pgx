@@ -1,0 +1,73 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "11f1-d1d9-5121-5aa1",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a6f6-5db8-2af2-b677",
+					"cf85-cb9a-c629-3869",
+					"4a19-4f6e-6c11-6f4c"
+				],
+				"name": "pgCase5",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "a6f6-5db8-2af2-b677",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "11f1-d1d9-5121-5aa1"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "cf85-cb9a-c629-3869",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "11f1-d1d9-5121-5aa1",
+				"title": "pgCase5"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgCase5"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgBlack #pgCase5-flCase5$1",
+			"hiddenComponent": false,
+			"id": "4a19-4f6e-6c11-6f4c",
+			"props": {
+				"children": [],
+				"name": "flCase5$1",
+				"parent": "11f1-d1d9-5121-5aa1"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flCase5$1",
+				"id": "62e8-d46d-acfb-348f"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

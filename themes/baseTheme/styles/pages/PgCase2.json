@@ -1,0 +1,14 @@
+{
+  "#pgCase2": {
+    "&-flCase2": {
+      "&undefined1": {
+        "flexProps": {
+          "positionType": "RELATIVE"
+        },
+        "flex": {
+          "positionType": 0
+        }
+      }
+    }
+  }
+}

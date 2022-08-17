@@ -1,0 +1,73 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "844f-62e0-0a9c-c022",
+			"initialized": true,
+			"props": {
+				"children": [
+					"b453-1e2f-6f59-628c",
+					"f2ca-587e-96fb-d24f",
+					"1a57-9add-a26b-7eff"
+				],
+				"name": "pgCase3",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "b453-1e2f-6f59-628c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "844f-62e0-0a9c-c022"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "f2ca-587e-96fb-d24f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "844f-62e0-0a9c-c022",
+				"title": "pgCase3"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgCase3"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgBlack #pgCase3-flCase3$1",
+			"hiddenComponent": false,
+			"id": "1a57-9add-a26b-7eff",
+			"props": {
+				"children": [],
+				"name": "flCase3$1",
+				"parent": "844f-62e0-0a9c-c022"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flCase3$1",
+				"id": "d784-abb3-6dc2-458f"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

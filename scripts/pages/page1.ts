@@ -3,10 +3,15 @@ import Label from '@smartface/native/ui/label';
 import { Route, Router } from '@smartface/router';
 import { styleableComponentMixin } from '@smartface/styling-context';
 import { i18n } from '@smartface/i18n';
+import Button from '@smartface/native/ui/button';
+import router from 'routes';
+
+class StyleableButton extends styleableComponentMixin(Button) {}
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 
 export default class Page1 extends Page1Design {
+myButton:StyleableButton;
   private disposeables: (() => void)[] = [];
   lbl: StyleableLabel;
   constructor(private router?: Router, private route?: Route) {
@@ -15,10 +20,7 @@ export default class Page1 extends Page1Design {
     console.log('[page1] constructor');
   }
 
-  setTexts() {
-    this.btnNext.text = i18n.instance.t('nextPage');
-    this.lbl.text = i18n.instance.t('runtimeLabel');
-  }
+  
 
   /**
    * @event onShow
@@ -27,11 +29,26 @@ export default class Page1 extends Page1Design {
   onShow() {
     super.onShow();
     console.log('[page1] onShow');
-    this.disposeables.push(
-      this.btnNext.on('press', () => {
-        this.router.push('page2', { message: i18n.instance.t('helloWorld') });
-      })
-    );
+    
+    
+  }
+  initButtons(){
+      for(let i=1; i<7; i++){
+        this.myButton = new StyleableButton({
+            text: `${i} case`,
+            onPress: function () {
+              router.push(`pages/case${i}`)
+            },
+          });
+        
+          this.flWrapper.addChild(this.myButton, "myButton", ".sf-button", {
+            width: 100,
+            height: 50,
+            textColor: "#000000",
+            backgroundColor: "#00A1F1",
+            margin: 5
+          });
+      }
   }
   /**
    * @event onLoad
@@ -39,12 +56,13 @@ export default class Page1 extends Page1Design {
    */
   onLoad() {
     super.onLoad();
-    this.setTexts();
     console.log('[page1] onLoad');
     this.headerBar.leftItemEnabled = false;
     this.addChild(this.lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
       return { ...userProps };
     });
+    this.initButtons();
+    
   }
 
   onHide(): void {

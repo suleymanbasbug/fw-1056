@@ -1,0 +1,23 @@
+{
+  "#pgCase6": {
+    "&-flCase6": {
+      "&undefined1": {
+        "flexProps": {
+          "positionType": "RELATIVE"
+        },
+        "flex": {
+          "positionType": 0
+        }
+      },
+      "&undefined2": {
+        "flexProps": {
+          "positionType": "RELATIVE"
+        },
+        "flex": {
+          "positionType": 0
+        },
+        "marginTop": 2
+      }
+    }
+  }
+}
